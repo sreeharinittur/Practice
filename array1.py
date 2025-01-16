@@ -1,0 +1,26 @@
+
+class Solution(object):
+    def productExceptSelf(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        answers=[]
+        l=nums
+        
+        for i in range(len(l)):
+            prod=1
+            l2=[]
+            for j in l[:i]:
+                l2.append(j)
+            for k in l[i+1:]:
+                l2.append(k)
+            
+            for k1 in l2:
+                prod*=k1
+            answers.append(prod)
+        return answers
+a=Solution()
+print(a.productExceptSelf([-1,1,0,-3,3]))
+                
+            
