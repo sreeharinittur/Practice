@@ -21,4 +21,4 @@ for i in ans:
         ans2.append(i)
     else:
         continue
-print(ans2)
+print(ans2)//answer
