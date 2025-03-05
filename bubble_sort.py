@@ -4,5 +4,5 @@ def bubble_sort(arr):
             if arr[i]>arr[j]:
                 arr[i],arr[j]=arr[j],arr[i]//swap
     return arr
-arr=[222,22,33,1,-5]
+arr=[222,22,33,1,-5]//array
 print(bubble_sort(arr))
