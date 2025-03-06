@@ -6,7 +6,7 @@ class valid:
                 stack.append(i)
             elif i==")":
                 if stack and stack[-1]=="(":
-                    stack.pop()
+                    stack.pop()//remove
                 else:
                     return False
             else:
