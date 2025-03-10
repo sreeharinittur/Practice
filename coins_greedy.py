@@ -8,6 +8,6 @@ def calc(coins,target):
             target-=cnt*coins2[i]
     return res
 
-coins=[10,5,2,1]
+coins=[10,5,2,1]//array
 target=3
 print(calc(coins,target))
