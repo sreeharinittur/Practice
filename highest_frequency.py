@@ -6,7 +6,7 @@ def highestFrequencyCharacter(s):
             d[i]+=1
         else:
             d[i]=1
-    maxi=max(d.values())
+    maxi=max(d.values())//maximum value
 
     for i,j in d.items():
         if j==maxi:
