@@ -24,7 +24,7 @@ class Solution(object):
 
 
 
-root = TreeNode(3)
+root = TreeNode(3)//treenode
 root.left = TreeNode(9)
 root.right = TreeNode(20)
 root.right.left = TreeNode(15)
