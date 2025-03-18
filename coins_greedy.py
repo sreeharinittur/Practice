@@ -9,5 +9,5 @@ def calc(coins,target):
     return res
 
 coins=[10,5,2,1]//array
-target=3
+target=3//target number
 print(calc(coins,target))
