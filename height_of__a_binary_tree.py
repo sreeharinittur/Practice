@@ -9,7 +9,7 @@ def height(root):
     l=height(root.left)
     r=height(root.right)
     return 1+max(l,r)
-r=Tree(5)
+r=Tree(5)//Initialization
 r2=Tree(4)
 r3=Tree(6)
 r4=Tree(7)
