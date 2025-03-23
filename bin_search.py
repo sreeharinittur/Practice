@@ -9,7 +9,7 @@ def binary_search(start1,end1,a,ele):
     if start1>end1:
         return -1
     mid=(start1+end1)//2
-    if a[mid]==ele:
+    if a[mid]==ele://best case
         flag=1
         return mid
     elif a[mid]<ele:
