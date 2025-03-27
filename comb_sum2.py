@@ -5,7 +5,7 @@ def comb_sum(ind,arr,target,ans,ds):
         return
     if arr[ind]<=target:
         ds.append(arr[ind])
-        comb_sum(ind+1,arr,target-arr[ind],ans,ds)
+        comb_sum(ind+1,arr,target-arr[ind],ans,ds)//call again
         ds.pop()
     comb_sum(ind+1,arr,target,ans,ds)
 arr=[1,1,1,2,2]
