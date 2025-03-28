@@ -8,7 +8,7 @@ class Solution(object):
         answers=[]
         l=nums
         
-        for i in range(len(l)):
+        for i in range(len(l)):#for loop
             prod=1
             l2=[]
             for j in l[:i]:
