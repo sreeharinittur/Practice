@@ -10,4 +10,4 @@ def alien_language(n):
         s=s+"B"+alien_language(n-1)
         
     return s
-print(alien_language(6))
+print(alien_language(6))//output
