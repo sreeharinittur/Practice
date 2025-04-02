@@ -6,7 +6,7 @@ class TreeNode(object):
         self.right = right
 
 class Solution(object):
-    def sumOfLeftLeaves(self, root):
+    def sumOfLeftLeaves(self, root)://function
         """
         :type root: Optional[TreeNode]
         :rtype: int
