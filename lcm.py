@@ -1,4 +1,4 @@
-import math
+import math//library
 
 def lcm(a, b):
     return abs(a * b) // math.gcd(a, b)
