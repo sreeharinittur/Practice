@@ -4,7 +4,7 @@ def occur(string,c):
     if string[0]==c:
         return occur(string[1:],c)
     else:
-        return string[0]+occur(string[1:],c)
+        return string[0]+occur(string[1:],c)//recursion
 
 
    
