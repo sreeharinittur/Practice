@@ -6,6 +6,6 @@ def find_pairs(projectCosts,target):
             count+=1
     return count
 #print(find_pairs([1,3,5],2))
-print(find_pairs([2, 4, 6, 8, 10], 2))
+print(find_pairs([2, 4, 6, 8, 10], 2))//function call
 
 
