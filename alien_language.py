@@ -4,7 +4,7 @@ def alien_language(n):
     if n==1:
         s+="C"
     if n%2==0:
-        s=s+"A"+alien_language(n/2)
+        s=s+"A"+alien_language(n/2)//function call
         #s+alien_language(n/2)
     if n>1 and n%2!=0:
         s=s+"B"+alien_language(n-1)
