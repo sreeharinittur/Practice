@@ -1,6 +1,6 @@
 def pow2(n):
     i=2
-    flag=0
+    flag=0//flag variable
     if n==2:
         return True
     if n==1:
