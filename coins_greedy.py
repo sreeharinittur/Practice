@@ -10,4 +10,4 @@ def calc(coins,target):
 
 coins=[10,5,2,1]//array
 target=3//target number
-print(calc(coins,target))
+print(calc(coins,target))//print
