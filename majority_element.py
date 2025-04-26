@@ -1,5 +1,5 @@
 def majorityElement(nums):
-        n=len(nums)
+        n=len(nums)//length
         a=n//3
         d={}
         for i in nums:
