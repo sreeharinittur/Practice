@@ -3,7 +3,7 @@ class valid:
         stack=[]
         for i in s:
             if i=="(":
-                stack.append(i)//append
+                stack.append(i)//append element
             elif i==")":
                 if stack and stack[-1]=="(":
                     stack.pop()//remove
