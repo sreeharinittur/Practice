@@ -8,7 +8,7 @@ def height(root):
         return -1
     lheight=height(root.left)
     rheight=height(root.right)
-    return max(lheight,rheight) + 1
+    return max(lheight,rheight) + 1//maximum
 root = Node(1)
 root.left = Node(2)
 root.right = Node(3)
