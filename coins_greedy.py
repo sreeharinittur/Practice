@@ -1,4 +1,4 @@
-def calc(coins,target):
+def calc(coins,target)://function definition
     coins2=sorted(coins)
     res=0
     for i in range(len(coins)-1,-1,-1):
