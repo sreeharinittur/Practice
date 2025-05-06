@@ -6,5 +6,5 @@ def permute(s,chosen=""):
         ch=s[i]
         remaining=s[:i]+s[i+1:]
         permute(remaining,chosen+ch)//recursion
-word="ABC"
+word="ABC"//word
 print(permute(word))
