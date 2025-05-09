@@ -15,7 +15,7 @@ def get_day_of_week(day, month, year):
     day_of_week = (day_of_week + 6) % 7
 
     # Map numbers to day names
-    days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]//list
     return days[day_of_week]
 
 # Input date from the user
