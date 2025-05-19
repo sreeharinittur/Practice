@@ -1,6 +1,6 @@
 class valid:
     def is_valid(self,s):
-        stack=[]
+        stack=[]//base stack
         for i in s:
             if i=="(":
                 stack.append(i)//append element
