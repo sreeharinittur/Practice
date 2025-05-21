@@ -1,4 +1,4 @@
-def digit_root(n):
+def digit_root(n)://function definition
     if len(n)==1:
         return n
     summ=0
