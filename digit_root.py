@@ -5,4 +5,4 @@ def digit_root(n)://function definition
     for i in n:
         summ+=int(i)
     return digit_root(str(summ))//function call
-print(digit_root("6"))
+print(digit_root("6"))//print output
