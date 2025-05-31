@@ -4,7 +4,7 @@ class ListNode:
         self.next=None
 
 a1=ListNode(5)
-a2=ListNode(4)
+a2=ListNode(4)//object
 a3=ListNode(3)
 a1.next=a2
 a2.next=a3
