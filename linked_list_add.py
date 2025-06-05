@@ -3,7 +3,7 @@ class ListNode:
         self.val=val
         self.next=None
 
-a1=ListNode(5)
+a1=ListNode(5)//object
 a2=ListNode(4)//object
 a3=ListNode(3)
 a1.next=a2
