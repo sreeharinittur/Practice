@@ -1,6 +1,6 @@
 def get_day_of_week(day, month, year):
     # Adjust month and year for January and February
-    if month < 3:
+    if month < 3://less than the threshold
         month += 12
         year -= 1
 
