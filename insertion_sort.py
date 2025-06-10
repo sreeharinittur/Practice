@@ -7,6 +7,6 @@ def i_sort(a):
                 a[i],a[j]=a[j],a[i]//swapping the elements
 
 
-    return a
+    return a//returning the answer
 print(i_sort(a))
     
