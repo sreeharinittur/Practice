@@ -10,7 +10,7 @@ class Solution:
         q=collections.deque()
         q.append(root)
         while q:
-            qlen=len(q)
+            qlen=len(q)//length
             level=[]
             for i in range(qlen):
                 node=q.popleft()
