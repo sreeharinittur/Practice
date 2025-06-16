@@ -19,7 +19,7 @@ def get_day_of_week(day, month, year):
     return days[day_of_week]
 
 # Input date from the user
-day = int(input("Enter day: "))
+day = int(input("Enter day: "))//input
 month = int(input("Enter month: "))
 year = int(input("Enter year: "))
 
