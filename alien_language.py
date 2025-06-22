@@ -2,7 +2,7 @@
 def alien_language(n):
     s=""
     if n==1:
-        s+="C"
+        s+="C"//string addition
     if n%2==0:
         s=s+"A"+alien_language(n/2)//function calling itself
         #s+alien_language(n/2)
