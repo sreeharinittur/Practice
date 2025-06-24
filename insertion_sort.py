@@ -3,8 +3,8 @@ def i_sort(a):
     for i in range(1,len(a)):
         
         for j in range(i):
-            if a[j]>a[i]:
-                a[i],a[j]=a[j],a[i]//swapping the elements
+            if a[j]>a[i]://compare
+                a[i],a[j]=a[j],a[i]//swapping the elements 
 
 
     return a//returning the answer
