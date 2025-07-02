@@ -12,7 +12,7 @@ def get_day_of_week(day, month, year):
     day_of_week = (day + ((13 * (month + 1)) // 5) + K + (K // 4) + (J // 4) - (2 * J)) % 7
 
     # Adjust to make Sunday = 0, Monday = 1, ..., Saturday = 6
-    day_of_week = (day_of_week + 6) % 7
+    day_of_week = (day_of_week + 6) % 7//modulous operator
 
     # Map numbers to day names
     days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]//list
