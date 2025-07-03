@@ -3,4 +3,4 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)//recursive call of the function
 
-print(factorial(5))
+print(factorial(5))//function all
