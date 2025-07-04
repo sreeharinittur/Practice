@@ -13,7 +13,7 @@ def binary_search(start1,end1,a,ele):
         flag=1
         return mid
     elif a[mid]<ele:
-        return binary_search(mid+1,end1,a,ele)
+        return binary_search(mid+1,end1,a,ele)//recursion
     else:
         return binary_search(start1,mid-1,a,ele)
     
