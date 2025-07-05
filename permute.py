@@ -7,4 +7,4 @@ def permute(s,chosen=""):
         remaining=s[:i]+s[i+1:]
         permute(remaining,chosen+ch)//recursion
 word="ABC"//word
-print(permute(word))
+print(permute(word))//function calling
