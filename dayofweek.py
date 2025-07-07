@@ -2,7 +2,7 @@ def get_day_of_week(day, month, year):
     # Adjust month and year for January and February
     if month < 3://less than the threshold
         month += 12
-        year -= 1
+        year -= 1//year
 
     # Zeller's Congruence formula
     K = year % 100  # Year of the century
