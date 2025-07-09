@@ -6,7 +6,7 @@ class Tree:
 def height(root):
     if root is None:
         return -1
-    l=height(root.left)//recursion
+    l=height(root.left)//recursion call
     r=height(root.right)
     return 1+max(l,r)
 r=Tree(5)//Initialization
