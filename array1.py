@@ -13,7 +13,7 @@ class Solution(object):
             l2=[]
             for j in l[:i]:
                 l2.append(j)
-            for k in l[i+1:]:
+            for k in l[i+1:]://slicing
                 l2.append(k)
             
             for k1 in l2:
