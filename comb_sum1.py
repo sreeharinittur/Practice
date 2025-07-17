@@ -1,7 +1,7 @@
 def find_comb(ind,arr,target,ans,ds):
     if ind==len(arr):
         if target==0:
-            ans.append(list(ds))
+            ans.append(list(ds))//append
         return
     if arr[ind]<=target:
         ds.append(arr[ind])
