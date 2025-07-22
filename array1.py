@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: List[int]
         """
         answers=[]
-        l=nums
+        l=nums//nums
         
         for i in range(len(l)):#for loop
             prod=1
