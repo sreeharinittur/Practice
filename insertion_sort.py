@@ -4,7 +4,7 @@ def i_sort(a):
         
         for j in range(i):
             if a[j]>a[i]://compare
-                a[i],a[j]=a[j],a[i]//swapping the elements 
+                a[i],a[j]=a[j],a[i]//swapping both
 
 
     return a//returning the answer
