@@ -1,5 +1,5 @@
 a=[10,20,30,40]
-def binary_search(start1,end1,a,ele):
+def binary_search(start1,end1,a,ele)://function declaration
     flag=0
     n=len(a)
     if n==0:
@@ -18,3 +18,4 @@ def binary_search(start1,end1,a,ele):
         return binary_search(start1,mid-1,a,ele)
     
 print(binary_search(0,3,a,55))
+
